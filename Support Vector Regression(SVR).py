@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing Dataset
-dataset = pd.read_csv('/Users/shivamaditya/Desktop/[Tutsgalaxy.com] - Machine Learning A-Z™ Hands-On Python & R In Data Science/additional files/2.Regression/Section 9 - Support Vector Regression (SVR)/Python/Position_Salaries.csv')
+dataset = pd.read_csv('Position_Salaries.csv')
 X = dataset.iloc[:, 1].values # we used 1:2 instead of 1 to treat X as a matrix
 #print(X)
 Y = dataset.iloc[:, -1].values # Prediction variable
