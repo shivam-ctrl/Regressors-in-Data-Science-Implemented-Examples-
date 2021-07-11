@@ -1,1 +1,1 @@
-# Regressors-in-Data-Science-Implemented-Examples-
+# Regressors-in-Data-Science-Implemented-Examples
