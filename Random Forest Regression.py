@@ -13,7 +13,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-dataset = pd.read_csv('/Users/shivamaditya/Desktop/[Tutsgalaxy.com] - Machine Learning A-Z™ Hands-On Python & R In Data Science/additional files/2.Regression/Section 11 - Random Forest Regression/Python/Position_Salaries.csv')
+dataset = pd.read_csv('Python/Position_Salaries.csv')
 X = dataset.iloc[:, 1].values # we used 1:2 instead of 1 to treat X as a matrix
 #print(X)
 Y = dataset.iloc[:, -1].values # Prediction variable
