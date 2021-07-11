@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Importing the dataset
-dataset = pd.read_csv('/Users/shivamaditya/Desktop/[Tutsgalaxy.com] - Machine Learning A-Z™ Hands-On Python & R In Data Science/additional files/2.Regression/Section 6 - Simple Linear Regression/Python/Salary_Data.csv')
+dataset = pd.read_csv('Salary_Data.csv')
 X = dataset.iloc[:, 0]       # Independent variable
 Y = dataset.iloc[:, 1]       # Dependent variable
 # Check X and Y
