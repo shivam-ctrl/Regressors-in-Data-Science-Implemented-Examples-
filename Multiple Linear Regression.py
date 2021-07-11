@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Importing the dataset
-dataset = pd.read_csv('/Users/shivamaditya/Desktop/[Tutsgalaxy.com] - Machine Learning A-Z™ Hands-On Python & R In Data Science/additional files/2.Regression/Section 7 - Multiple Linear Regression/Python/50_Startups.csv')
+dataset = pd.read_csv('50_Startups.csv')
 X = dataset.iloc[:, :-1].values       # Independent variable
 Y = dataset.iloc[:, 4].values       # Dependent variable
 # Check X and Y
